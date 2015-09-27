@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  <controls>
+    <!--     *******************************************************************************************  -->
+    <!--     *************************   INFOS ON BASIC HOME (RECENTLY ADDED)   ************************  -->
+    <!--     *******************************************************************************************  -->
+    <control>
+      <description>group element</description>
+      <type>group</type>
+      <visible>!skin.hassetting(#skin.rss.info)</visible>
+	  
+	  <control>
+        <description>dummy label for changing Thumb</description>
+        <type>image</type>
+        <id>66900</id>
+		<posX>1</posX>
+        <posY>1</posY>
+		<height>110</height>
+		<width>110</width>
+        <texture></texture>
+        <visible>!control.hasfocus(2)+!control.hasfocus(5005)+!control.hasfocus(55510)+!control.hasfocus(55511)+!control.hasfocus(91919991)+!control.hasfocus(91919992)+!control.hasfocus(58511)+!control.hasfocus(91915991)+!control.hasfocus(91915992)</visible>
+		<animation effect="fade" delay="0" time="0">visiblechange</animation>
+     </control>
+
+	  <!--     *************************   Latest movie   ************************  -->
+	<control>
+	  <description>DUMMY CONTROL FOR MOVIES VISIBILITY</description>
+      <type>textbox</type>
+      <id>033282</id>
+      <posX>4260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.movingpicture.latest1.title</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.isvisible(66900)+control.hastext(033282)]+string.equals(#latestMediaHandler.movingpicture.latest.enabled,true)</visible>
+    </control>	  
+	  
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>40000</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>170</height>
+		<width>120</width>
+        <texture mask="postermask.png">#latestMediaHandler.movingpicture.latest1.thumb</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,True)]+string.equals(#latestMediaHandler.movingpicture.latest.enabled,true)+control.hastext(033282)</visible>
+      </control>
+	  
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>113</posX>
+        <posY>875</posY>
+		<height>177</height>
+		<width>127</width>
+        <texture>postershadow.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,True)]+string.equals(#latestMediaHandler.movingpicture.latest.enabled,true)+control.hastext(033282)</visible>
+      </control>
+	  
+	  <control>
+      <type>textbox</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.movingpicture.latest1.title</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,True)]+string.equals(#latestMediaHandler.movingpicture.latest.enabled,true)+control.hastext(033282)</visible>
+    </control>
+	  
+	  <control>
+      <type>textboxscrollup</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>930</posY>
+      <width>1550</width>
+      <height>80</height>
+      <label>#latestMediaHandler.movingpicture.latest1.plot</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>99ffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,True)]+string.equals(#latestMediaHandler.movingpicture.latest.enabled,true)+control.hastext(033282)</visible>
+    </control>
+	  
+	  
+	  <!--     *************************   Latest series   ************************  -->
+	  
+	<control>
+	  <description>DUMMY CONTROL FOR TVSERIES VISIBILITY</description>
+      <type>textbox</type>
+      <id>033281</id>
+      <posX>4260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.tvseries.latest1.serieName</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.isvisible(66900)+control.hastext(033281)]+string.equals(#latestMediaHandler.tvseries.latest.enabled,true)</visible>
+    </control>
+
+	
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>50000</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>170</height>
+		<width>120</width>
+        <texture mask="postermask.png">#latestMediaHandler.tvseries.latest1.serieThumb</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(55518)+!control.isvisible(55519)]+string.equals(#latestMediaHandler.tvseries.latest.enabled,true)</visible>
+      </control>
+	  
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>113</posX>
+        <posY>875</posY>
+		<height>177</height>
+		<width>127</width>
+        <texture>postershadow.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(55518)+!control.isvisible(55519)]+string.equals(#latestMediaHandler.tvseries.latest.enabled,true)</visible>
+      </control>
+
+	  <control>
+      <type>textbox</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.tvseries.latest1.serieName  S#latestMediaHandler.tvseries.latest1.seasonIndexE#latestMediaHandler.tvseries.latest1.episodeIndex</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(55518)+!control.isvisible(55519)]+string.equals(#latestMediaHandler.tvseries.latest.enabled,true)</visible>
+    </control>
+	  
+	  <control>
+      <type>textboxscrollup</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>930</posY>
+      <width>1550</width>
+      <height>80</height>
+      <label>#latestMediaHandler.tvseries.latest1.plot</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>99ffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(55518)+!control.isvisible(55519)]+string.equals(#latestMediaHandler.tvseries.latest.enabled,true)</visible>
+    </control>
+	
+	
+		  <!--     *************************   Latest myvideo   ************************  -->
+		  
+	<control>
+	  <description>DUMMY CONTROL FOR MYMOVIES VISIBILITY</description>
+      <type>textbox</type>
+      <id>033283</id>
+      <posX>4260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.myvideo.latest1.title</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[string.equals(#skin.movie.swap,True)+control.hastext(033283)]+string.equals(#latestMediaHandler.myvideo.latest.enabled,true)</visible>
+    </control>	
+	
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>70000</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>170</height>
+		<width>120</width>
+        <texture mask="postermask.png">#latestMediaHandler.myvideo.latest1.thumb</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,False)]+string.equals(#latestMediaHandler.myvideo.latest.enabled,true)+control.hastext(033283)</visible>
+      </control>
+	  
+	  <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>175</height>
+		<width>125</width>
+        <texture>postershadow.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,False)]+string.equals(#latestMediaHandler.myvideo.latest.enabled,true)+control.hastext(033283)</visible>
+      </control>
+	  
+	  <control>
+      <type>textbox</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.myvideo.latest1.title</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,False)]+string.equals(#latestMediaHandler.myvideo.latest.enabled,true)+control.hastext(033283)</visible>
+    </control>
+	  
+	  <control>
+      <type>textboxscrollup</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>930</posY>
+      <width>1550</width>
+      <height>80</height>
+      <label>#latestMediaHandler.myvideo.latest1.plot</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>99ffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[!control.isvisible(66900)+!string.equals(#skin.movie.swap,False)]+string.equals(#latestMediaHandler.myvideo.latest.enabled,true)+control.hastext(033283)</visible>
+    </control>
+	
+	  
+		  <!--     *************************   Latest music   ************************  -->
+	  <control>
+        <description>BasicHome music</description>
+        <type>image</type>
+        <id>6000</id>
+        <posX>85</posX>
+        <posY>875</posY>
+		<height>160</height>
+		<width>160</width>
+        <texture mask="ltlmusic_mask.png">#latestMediaHandler.music.latest1.thumb</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(5)|control.hasfocus(55518)|control.hasfocus(55519)|control.hasfocus(91919997)|control.hasfocus(91919998)]+!string.equals(#skin.rss.info, "True")</visible>
+      </control>
+	  
+	  <control>
+        <description>BasicHome music</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>80</posX>
+        <posY>871</posY>
+		<height>171</height>
+		<width>171</width>
+        <texture>ltlmusic.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(5)|control.hasfocus(55518)|control.hasfocus(55519)|control.hasfocus(91919997)|control.hasfocus(91919998)]+[!string.equals(#skin.rss.info, "True")]+plugin.isenabled(Latest Media Handler)</visible>
+      </control>
+	  
+	  <control>
+      <type>textbox</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>890</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#latestMediaHandler.music.latest1.artist</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.hasfocus(5)|control.hasfocus(55518)|control.hasfocus(55519)|control.hasfocus(91919997)|control.hasfocus(91919998)]+!string.equals(#skin.rss.info, "True")</visible>
+    </control>
+	  
+	  <control>
+      <type>textboxscrollup</type>
+      <id>1</id>
+      <posX>260</posX>
+      <posY>930</posY>
+      <width>1550</width>
+      <height>80</height>
+      <label>#latestMediaHandler.music.latest1.album  #latestMediaHandler.music.latest1.genre</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>99ffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+	  <visible>[control.hasfocus(5)|control.hasfocus(55518)|control.hasfocus(55519)|control.hasfocus(91919997)|control.hasfocus(91919998)]+!string.equals(#skin.rss.info, "True")</visible>
+    </control>
+
+      <!--     *************************   Latest OV   ************************  -->
+      <control>
+        <description>BasicHome OV</description>
+        <type>image</type>
+        <id>10000</id>
+        <posX>111</posX>
+        <posY>875</posY>
+        <height>160</height>
+        <width>160</width>
+        <texture mask="ltlmusic_mask.png">#OnlineVideos.LatestVideo1.SiteIcon</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+        <animation effect="fade" delay="0" time="500">hidden</animation>
+        <animation effect="fade" delay="0" time="500">visible</animation>
+        <visible>[control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(95514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)]+!string.equals(#skin.rss.info, "True")</visible>
+      </control>
+
+      <control>
+        <description>BasicHome OV</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>106</posX>
+        <posY>871</posY>
+        <height>171</height>
+        <width>171</width>
+        <texture>ltlmusic.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+        <animation effect="fade" delay="0" time="500">hidden</animation>
+        <animation effect="fade" delay="0" time="500">visible</animation>
+        <visible>[control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(95514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)]+!string.equals(#skin.rss.info, "True")</visible>
+      </control>
+
+      <control>
+        <type>textbox</type>
+        <id>1</id>
+        <posX>286</posX>
+        <posY>890</posY>
+        <width>1550</width>
+        <height>140</height>
+        <label>#OnlineVideos.LatestVideo1.Site - #OnlineVideos.LatestVideo1.Title</label>
+        <align>left</align>
+        <font>font11</font>
+        <textcolor>ffffffff</textcolor>
+        <animation effect="fade" delay="0" time="500">hidden</animation>
+        <animation effect="fade" delay="0" time="500">visible</animation>
+        <visible>[control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(95514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)]+!string.equals(#skin.rss.info, "True")</visible>
+      </control>
+
+      <control>
+        <type>textboxscrollup</type>
+        <id>1</id>
+        <posX>286</posX>
+        <posY>930</posY>
+        <width>1550</width>
+        <height>80</height>
+        <label>#OnlineVideos.LatestVideo1.Description</label>
+        <align>left</align>
+        <font>font11</font>
+        <textcolor>99ffffff</textcolor>
+        <animation effect="fade" delay="0" time="500">hidden</animation>
+        <animation effect="fade" delay="0" time="500">visible</animation>
+        <visible>[control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(95514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)]+!string.equals(#skin.rss.info, "True")</visible>
+      </control>
+
+
+    </control>
+
+  </controls>
+</window> 
+
+
+

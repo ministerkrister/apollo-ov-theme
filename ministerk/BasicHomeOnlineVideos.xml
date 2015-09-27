@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+
+  
+  <controls>
+    <control>
+      <description>group element</description>
+      <type>group</type>
+	
+	  <control>
+        <description>left</description>
+        <type>image</type>
+        <id>666005</id>
+        <posX>0</posX>
+        <posY>0</posY>
+        <width>5</width>
+        <height>5</height>
+        <texture></texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<visible>control.hasfocus(5006)|control.hasfocus(2)|control.hasfocus(3)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55513)</visible>
+      </control>
+      
+	  <control>
+        <description>right</description>
+        <type>image</type>
+        <id>666006</id>
+        <posX>0</posX>
+        <posY>0</posY>
+        <width>5</width>
+        <height>5</height>
+        <texture></texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<visible>control.hasfocus(5)|control.hasfocus(5005)|control.hasfocus(55522)|control.hasfocus(55523)|control.hasfocus(55524)|control.hasfocus(0011223)</visible>
+      </control>
+
+	
+	<control>
+    <id>55514</id>
+    <type>button</type>
+    <description>onlinevideos</description>
+    <hyperlink>4755</hyperlink>
+    <label>Playkanaler</label>
+    <textureNoFocus mask="">OnlineVideos.png</textureNoFocus>
+    <textureFocus  overlay="black1.png">OnlineVideos.png</textureFocus>
+    <posX>111</posX>
+    <posY>205</posY>
+    <height>296</height>
+    <width>550</width>
+    <textalign>center</textalign>
+    <textYOff>100</textYOff>
+    <textcolorNoFocus>ff808080</textcolorNoFocus>
+    <textcolor>ffffffff</textcolor>
+    <font>font13</font>
+    <onup>4</onup>
+    <ondown>95514</ondown>
+    <onright>55515</onright>
+    <onleft>91919995</onleft>
+    <animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+    <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+    <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+		<animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55514)">conditional</animation>
+		<animation effect="fade" time="350" reversible="true">hidden</animation>
+		<visible allowhiddenfocus="true">control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+      </control>
+
+
+      <control>
+        <id>95514</id>
+        <type>button</type>
+        <description>TV4</description>
+        <label>TV4Play</label>
+        <hyperlink>4755</hyperlink>
+        <hyperlinkParameter>site:TV4Play|return:Locked</hyperlinkParameter>
+        <textureFocus overlay="black1.png">TV4Play.png</textureFocus>
+        <textureNoFocus>TV4Play.png</textureNoFocus>
+        <posX>111</posX>
+        <posY>510</posY>
+        <height>306</height>
+        <width>550</width>
+        <textalign>center</textalign>
+        <textYOff>100</textYOff>
+        <textcolorNoFocus>ff808080</textcolorNoFocus>
+        <textcolor>ffffffff</textcolor>
+        <font>font13</font>
+        <onup>55514</onup>
+        <onleft>91919995</onleft>
+        <onright>55516</onright>
+        <ondown>95514</ondown>
+        <animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+        <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+        <animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+        <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+        <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+        <animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(95514)">conditional</animation>
+        <animation effect="fade" time="350" reversible="true">hidden</animation>
+        <visible>control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+      </control>
+
+
+      <control>
+        <description>SVTPlay</description>
+      <type>button</type>
+      <id>55515</id>
+      <posX>670</posX>
+      <posY>205</posY>
+      <height>296</height>
+      <width>550</width>
+      <label>SVTPlay</label>
+      <hyperlink>4755</hyperlink>
+      <hyperlinkParameter>site:SVTPlay|return:Locked</hyperlinkParameter>
+      <textcolorNoFocus>ff999999</textcolorNoFocus>
+      <textcolor>ffffffff</textcolor>
+      <textureFocus overlay="black1.png">SVTPlay.png</textureFocus>
+      <textureNoFocus>SVTPlay.png</textureNoFocus>
+      <textalign>center</textalign>
+      <textYOff>110</textYOff>
+      <font>font13</font>
+      <onleft>55514</onleft>
+      <onup>4</onup>
+      <ondown>55516</ondown>
+      <onright>55517</onright>
+      <animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+        <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+        <animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55515)">conditional</animation>
+		<animation effect="fade" time="350" reversible="true">hidden</animation>
+		<visible>control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+      </control>
+	  
+
+	  <control>
+      <description>BasicHome Netflix</description>
+      <type>button</type>
+      <id>55516</id>
+      <posX>670</posX>
+      <posY>510</posY>
+      <height>306</height>
+      <width>550</width>
+      <hyperlink>4755</hyperlink>
+      <hyperlinkParameter>site:Netflix|return:Locked</hyperlinkParameter>
+      <label>Netflix</label>
+      <textcolorNoFocus>ff999999</textcolorNoFocus>
+      <textcolor>ffffffff</textcolor>
+      <textureFocus overlay="black1.png">Netflix.png</textureFocus>
+      <textureNoFocus>Netflix.png</textureNoFocus>
+      <textalign>center</textalign>
+      <textYOff>110</textYOff>
+      <font>font13</font>
+      <onleft>95514</onleft>
+      <onup>55515</onup>
+      <ondown>55516</ondown>
+      <onright>68880</onright>
+      <animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+      <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+      <animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55516)">conditional</animation>
+		<animation effect="fade" time="350" reversible="true">hidden</animation>
+      <visible>control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+    </control>
+	  
+	  
+	  
+	  <control>
+      <description>BasicHome Ur</description>
+      <type>button</type>
+      <id>55517</id>
+      <posX>1232</posX>
+      <posY>205</posY>
+      <height>296</height>
+      <width>550</width>
+      <hyperlink>4755</hyperlink>
+      <hyperlinkParameter>site:URPlay|return:Locked</hyperlinkParameter>
+      <label>URPlay</label>
+      <textcolorNoFocus>ff999999</textcolorNoFocus>
+      <textcolor>ffffffff</textcolor>
+      <textureFocus overlay="black1.png">URPlay.png</textureFocus>
+      <textureNoFocus>URPlay.png</textureNoFocus>
+      <textalign>center</textalign>
+      <textYOff>110</textYOff>
+      <font>font13</font>
+      <onleft>55515</onleft>
+      <onup>4</onup>
+      <ondown>68880</ondown>
+      <onright>55518</onright>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+      <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+      <animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55517)">conditional</animation>
+		<animation effect="fade" time="350" reversible="true">hidden</animation>
+      <visible allowhiddenfocus="true">control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+      </control>
+	  
+
+	  <control>
+      <description>BasicHome Viaplay</description>
+      <type>button</type>
+      <id>68880</id>
+      <posX>1232</posX>
+      <posY>510</posY>
+      <height>306</height>
+      <width>550</width>
+      <hyperlink>4755</hyperlink>
+      <hyperlinkParameter>site:Viaplay.se|return:Locked</hyperlinkParameter>
+      <label>Viaplay</label>
+      <textureFocus>Viaplay.png</textureFocus>
+      <textureNoFocus>Viaplay.png</textureNoFocus>
+      <textalign>center</textalign>
+      <textYOff>110</textYOff>
+      <font>font13</font>
+      <textcolorNoFocus>ff999999</textcolorNoFocus>
+      <textcolor>ffffffff</textcolor>
+      <colordiffuse>ffffffff</colordiffuse>
+      <onup>55517</onup>
+      <ondown>68880</ondown>
+      <onright>55518</onright>
+		<onleft>55516</onleft>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666005)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666006)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.hasfocus(91919995)|control.hasfocus(91919996)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55518)">Conditional</animation>
+      <animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55519)">Conditional</animation>
+      <animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(68880)">conditional</animation>
+		<animation effect="fade" time="350" reversible="true">hidden</animation>
+      <visible>control.hasfocus(4)|control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(95514)</visible>
+    </control>
+	  
+	  
+	  
+
+	
+
+	  </control>
+  </controls>
+</window>
