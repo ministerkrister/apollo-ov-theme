@@ -8,4 +8,4 @@ This is a simple theme/mod for the excellent [Apollo](http://forum.team-mediapor
 For older versions see [Apollo mods](http://forum.team-mediaportal.com/threads/mods.131153/) 
 
 *Screenshots*
-![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/ministerk/Media/preview.png)
+![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/onlinevideos%20home%20tab/Media/preview.png)
