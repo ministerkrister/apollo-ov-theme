@@ -10,6 +10,8 @@
       <!--     *************************   RECENTLY ADDED - Moving Pictures   ***********************************  -->
       <!--     *******************************************************************************************  -->
       
+	  <!-- NAVIGATION CONTROLS FOR TILES IN BASICHOME -->
+	  
 	  <control>
         <description>left</description>
         <type>image</type>
@@ -20,8 +22,8 @@
         <height>5</height>
         <texture></texture>
         <colordiffuse>ffffffff</colordiffuse>
-		<visible>false</visible>
-      </control>
+      <visible>control.hasfocus(5006)|control.hasfocus(6)|control.hasfocus(95514)|control.hasfocus(95515)</visible>
+    </control>
 	  
 	  <control>
         <description>right</description>
@@ -37,6 +39,7 @@
       </control>
 	  
 
+	  <!-- SHADOWS FOR TILES IN BASICHOME -->
 	  
 	  <control>
         <description>BasicHome tile3</description>
@@ -52,10 +55,65 @@
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
       </control>
-  
 	  
+	  <!-- FOCUSED HIGHLIGHT FOR TILES -->
+	  
+	  <control>
+        <description>GLOW</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>96</posX>
+        <posY>191</posY>
+		<height>644</height>
+		<width>638</width>
+        <texture>glowbtnbig.png</texture>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
+		<animation effect="fade" delay="0" reversible="false" time="250" condition="control.hasfocus(55510)">conditional</animation>
+		<animation effect="fade" time="250" reversible="true">hidden</animation>
+		<visible>control.hasfocus(55510)</visible>
+      </control>	  
+	  <control>
+        <description>GLOW</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>714</posX>
+        <posY>193</posY>
+		<height>328</height>
+		<width>566</width>
+        <texture>glowbtnsmall.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
+		<animation effect="fade" delay="0" reversible="false" time="250" condition="control.hasfocus(55511)">conditional</animation>
+		<animation effect="fade" time="250" reversible="true">hidden</animation>
+		<visible>control.hasfocus(55511)</visible>
+      </control>	
+	  <control>
+        <description>GLOW</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>718</posX>
+        <posY>509</posY>
+		<height>319</height>
+		<width>557</width>
+        <texture>glowbtnsmall.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
+		<animation effect="fade" delay="0" reversible="false" time="250" condition="control.hasfocus(58511)">conditional</animation>
+		<animation effect="fade" time="250" reversible="true">hidden</animation>
+		<visible>control.hasfocus(58511)</visible>
+      </control>		  
+	  
+	  
+  
+	  <!-- CONTROLS FOR TILES IN BASICHOME MOVIES -->
 	
 	  <control>
         <description>BasicHome tile1</description>
@@ -76,16 +134,15 @@
 		<textalign>center</textalign>
 		<textYOff>265</textYOff>
 		<font>font13</font>
-        <onleft>55510</onleft>
+        <onleft>95514</onleft>
         <onup>2</onup>
 		<ondown>55510</ondown>
 		<onright>55511</onright>
 		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
-		<animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55510)">conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
+      <visible allowhiddenfocus="true">control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
       </control>
 
 		  
@@ -114,18 +171,11 @@
 		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
-		<animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(55511)">conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
       </control>
 	  
 	  
-	 
-	    
-      <!--     *******************************************************************************************  -->
-      <!--     *****************************   Tile 3 Latest media 1   ***********************************  -->
-      <!--     *******************************************************************************************  -->		
-		
 	
 		
 	  <control>
@@ -136,13 +186,14 @@
         <posY>518</posY>
 		<height>301</height>
 		<width>536</width>
-		<label>Barnfilmer</label>
-      <hyperlink>96742</hyperlink>
-      <hyperlinkParameter>categoryname:Barnfilmer</hyperlinkParameter>
-      <textcolorNoFocus>ff999999</textcolorNoFocus>
+		<label>#home.movies3</label>
+		<oninfo>#(skin.setfocus(35,273))</oninfo>
+		<hyperlinkParameter>#Movies.hyperlink2</hyperlinkParameter>
+		<hyperlink>#mtsettings.hp</hyperlink>
+		<textcolorNoFocus>ff999999</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="black1.png">Barnfilmer.png</textureFocus>
-		<textureNoFocus>Barnfilmer.png</textureNoFocus>
+		<textureFocus overlay="black1.png">#mtsettings.hyperlink.png</textureFocus>
+		<textureNoFocus>#mtsettings.hyperlink.png</textureNoFocus>
 		<textalign>center</textalign>
 		<textYOff>110</textYOff>
 		<font>font13</font>
@@ -153,9 +204,8 @@
 		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
-		<animation effect="zoom" start="100,100" end="102,102" time="250" condition="control.hasfocus(58511)">conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(91915991)|control.hasfocus(91915992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)</visible>
       </control>
 	  
 	  	  
@@ -207,7 +257,7 @@
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!control.hasthumb(29999)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!control.hasthumb(29999)</visible>
       </control>
 	  
 	  <control>
@@ -224,7 +274,7 @@
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!string.equals(#skin.movie.swap,True)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!string.equals(#skin.movie.swap,True)</visible>
       </control>
 	  
 	  <control>
@@ -287,6 +337,10 @@
         <visible allowhiddenfocus="true">control.hasfocus(91919991)+!string.equals(#skin.movie.swap,True)</visible>
     </control>
 	  
+	  <!--
+	  <hyperlink>#skin.movietile.hyperlink</hyperlink>
+        <hyperlinkParameter>movieid:55</hyperlinkParameter>
+		-->
 	  
       <!--     *******************************************************************************************  -->
       <!--     ****************************   Tile 6 Latest media 2    ***********************************  -->
@@ -307,7 +361,7 @@
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!control.hasthumb(30001)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!control.hasthumb(30001)</visible>
       </control>
 	  
 	  <control>
@@ -324,17 +378,17 @@
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.isVisible(666001)">Conditional</animation>
 		<animation effect="slide" start="0,0" end="2500,0" reversible="true" time="350" condition="control.hasfocus(55512)">Conditional</animation>
 		<animation effect="fade" time="350" reversible="true">hidden</animation>
-		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(5006)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!string.equals(#skin.movie.swap,True)</visible>
+		<visible>control.hasfocus(2)|control.hasfocus(55510)|control.hasfocus(55511)|control.hasfocus(55510)|control.hasfocus(58511)|control.hasfocus(91919991)|control.hasfocus(91919992)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)+!string.equals(#skin.movie.swap,True)</visible>
       </control>	  
 	  
 	  <control>
         <description>BasicHome tile3</description>
         <type>image</type>
         <id>0</id>
-        <posX>1277</posX>
+        <posX>1276</posX>
         <posY>520</posY>
-		<height>296</height>
-		<width>532</width>
+		<height>297</height>
+		<width>533</width>
         <texture>fanart_grad.png</texture>
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>

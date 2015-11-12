@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <window>
   <id>35</id>
-  <defaultcontrol>4</defaultcontrol>
+  <defaultcontrol>6</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <rememberLastFocusedControl>yes</rememberLastFocusedControl>
   <controls>
@@ -19,22 +19,6 @@
 	  <shouldCache>false</shouldCache>
     </control>
 	
-	   <!--Now recording info on home-->
-   
-	<control>
-        <description>dummy active recording label</description>
-        <type>label</type>
-        <id>1090</id>
-        <posX>3300</posX>
-        <posY>850</posY>
-        <width>675</width>
-        <height>45</height>
-		<align>right</align>
-        <label>#latestMediaHandler.tvrecordings.active1.title#latestMediaHandler.tvrecordings.active1.channel</label>
-		<textcolor>ff444444</textcolor>
-        <font>font9</font>
-    </control>
-	
 	<control>
       <description>background overlay</description>
       <type>image</type>
@@ -46,6 +30,7 @@
       <texture>user.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
     </control>
+	
 	
     <control>
       <description>background overlay</description>
@@ -59,24 +44,10 @@
 	  <animation effect="fade" time="1500" reversible="true">visible</animation>
 	  <animation effect="fade" time="1500" reversible="true">hidden</animation>
 	  <animation effect="rotate" centre="40,40" delay="0" end="-360" time="2500" loop="true" condition="true">Conditional</animation>
-	  <visible>player.hasmedia|topbar.visible+!control.hastext(1090)</visible>
+	  <visible>[player.hasmedia|topbar.visible]+!window.isvisible(3002)</visible>
       <colordiffuse>ffffffff</colordiffuse>
     </control>
 	
-	<control>
-      <description>background overlay</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>1687</posX>
-      <posY>47</posY>
-      <width>80</width>
-      <height>80</height>
-      <texture>progrec.png</texture>
-	  <animation effect="fade" time="1500" reversible="true">visible</animation>
-	  <animation effect="fade" time="1500" reversible="true">hidden</animation>
-	  <animation effect="rotate" centre="40,40" delay="0" end="-360" time="2500" loop="true" condition="true">Conditional</animation>
-	  <visible>[control.hastext(1090)]+skin.hassetting(#skin.record.info)</visible>
-    </control>
 	
 	<control>
       <type>label</type>
@@ -161,23 +132,33 @@
       <textcolor>ffffffff</textcolor>
 	  <visible>skin.hassetting(#skin.weather.home)+!player.hasaudio+!player.hasvideo</visible>
     </control>
-	
-	
-	 <include condition="#(eq(#skin.home.menu,'Standard'))">BasichomeMainMenu.xml</include>
-	  <include condition="#(eq(#skin.home.menu,'Extended'))">BasichomeMainMenuExtended.xml</include>
-	 
+
+    <import>OnlineVideosThemeSettings.xml</import>	
+
+	  <include condition="#(eq(#skin.record.info,'False'))">BasichomeMainMenu.xml</include>
+	  <include condition="#(eq(#skin.record.info,'True'))">BasichomeMainMenuDisabledTV.xml</include>
+  
 	<import>PluginDefines.xml</import>	
 	<import>Basichome_settings.xml</import>	
-	<import>BasicHomeMovies.xml</import>	
-	<import>BasicHomeTVSeries.xml</import>
-        <import>BasicHomeOnlineVideos.xml</import>
+	<import>BasicHomeMovies.xml</import>
+  <import>BasicHomeTVSeries.xml</import>
+  <import>BasicHomeOnlineVideos.xml</import>
+  <import>BasicHomeTV.xml</import>
 	<import>BasicHomeMusic.xml</import>
-	<import>BasicHomePlugins.xml</import>
+	
+	<include condition="#(eq(#skin.plugin.layout,'True'))">BasicHomePluginsExtended.xml</include>
+	<include condition="#(eq(#skin.plugin.layout,'False'))">BasicHomePlugins.xml</include>
+	<include condition="#(eq(#skin.plugin.layout,'True'))">BasicHomePluginsExtendedfanart.xml</include>
+
+	  
 	<import>BasicHomeExtraInfos.xml</import>
+	<include condition="#(eq(#skin.latest.plugins,'True'))">BasicHomeExtraInfos2.xml</include>	
 	<import>BasicHomerss.xml</import>
 	<import>BasicHomeAllPlugins.xml</import>
 	<import>BasicHomeAllPluginsCheck.xml</import>
 	<import>Hints.xml</import>
+	
+	
 	<include condition="#(eq(#skin.movie.swap,'True'))">Basichomevideos.xml</include>	
 	
 	
