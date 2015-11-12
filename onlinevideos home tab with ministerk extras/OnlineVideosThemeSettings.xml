@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  
+  <!--     *******************************************************************************************  -->
+  <!--     Define online video tab names and sites                                                      -->
+  <!--     *******************************************************************************************  -->
+  
+  <!-- Menu name-->
+  <define property="true" evaluateNow="true">#ovtheme.menu.name:play</define>
+  <!-- Tile 1 OnlineVideos-->
+  <define property="true" evaluateNow="true">#ovtheme.tile1.name:OnlineVideos</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile1.thumb:OnlineVideos.png</define>
+  <!-- Tile 2 (Site 1)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile2.site:TV4Play</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile2.thumb:TV4Play.png</define>
+  <!-- Tile 3 (Site 2)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile3.site:SVTPlay</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile3.thumb:SVTPlay.png</define>
+  <!-- Tile 4 (Site 3)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile4.site:Netflix</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile4.thumb:Netflix.png</define>
+  <!-- Tile 5 (Site 4)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile5.site:URPlay</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile5.thumb:URPlay.png</define>
+  <!-- Tile 6 (Site 5)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile6.site:Viaplay.se</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile6.thumb:Viaplay.png</define>
+
+  <controls>
+  </controls>
+</window>
