@@ -401,7 +401,7 @@
         <colordiffuse>ffffffff</colordiffuse>
         <animation effect="fade" delay="0" time="500">hidden</animation>
         <animation effect="fade" delay="0" time="500">visible</animation>
-        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)]+!string.equals(#skin.rss.info, "True")</visible>
+        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)|control.hasfocus(95523)|control.hasfocus(95524)|control.hasfocus(95525)]+!string.equals(#skin.rss.info, "True")</visible>
       </control>
 
       <control>
@@ -416,7 +416,7 @@
         <colordiffuse>ffffffff</colordiffuse>
         <animation effect="fade" delay="0" time="500">hidden</animation>
         <animation effect="fade" delay="0" time="500">visible</animation>
-        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)]+!string.equals(#skin.rss.info, "True")</visible>
+        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)|control.hasfocus(95523)|control.hasfocus(95524)|control.hasfocus(95525)]+!string.equals(#skin.rss.info, "True")</visible>
       </control>
 
       <control>
@@ -432,7 +432,7 @@
         <textcolor>ffffffff</textcolor>
         <animation effect="fade" delay="0" time="500">hidden</animation>
         <animation effect="fade" delay="0" time="500">visible</animation>
-        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)]+!string.equals(#skin.rss.info, "True")</visible>
+        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)|control.hasfocus(95523)|control.hasfocus(95524)|control.hasfocus(95525)]+!string.equals(#skin.rss.info, "True")</visible>
       </control>
 
       <control>
@@ -448,7 +448,7 @@
         <textcolor>99ffffff</textcolor>
         <animation effect="fade" delay="0" time="500">hidden</animation>
         <animation effect="fade" delay="0" time="500">visible</animation>
-        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)]+!string.equals(#skin.rss.info, "True")</visible>
+        <visible>[control.hasfocus(6)|control.hasfocus(5006)|control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)|control.hasfocus(95523)|control.hasfocus(95524)|control.hasfocus(95525)]+!string.equals(#skin.rss.info, "True")</visible>
       </control>
 
 	  

@@ -142,7 +142,10 @@
 	<import>Basichome_settings.xml</import>	
 	<import>BasicHomeMovies.xml</import>
   <import>BasicHomeTVSeries.xml</import>
-  <import>BasicHomeOnlineVideos.xml</import>
+
+  <include condition="#(eq(#ovtheme.alt.mode,'True'))">BasicHomeOnlineVideosAlt.xml</include>
+  <include condition="#(eq(#ovtheme.alt.mode,'False'))">BasicHomeOnlineVideos.xml</include>
+
   <import>BasicHomeTV.xml</import>
 	<import>BasicHomeMusic.xml</import>
 	

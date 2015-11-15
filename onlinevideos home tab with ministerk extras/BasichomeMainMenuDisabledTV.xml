@@ -279,7 +279,7 @@
         <textureNoFocus></textureNoFocus>
         <textalign>left</textalign>
         <font>font14</font>
-        <visible>control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95514)|control.hasfocus(95515)</visible>
+        <visible>control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95523)|control.hasfocus(95514)|control.hasfocus(95524)|control.hasfocus(95515)|control.hasfocus(95525)</visible>
       </control>
 
       <control Style="BasicHomeButton">
