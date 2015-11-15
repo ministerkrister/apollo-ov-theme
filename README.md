@@ -10,7 +10,7 @@ Configure in OnlineVideosThemeSettings.xml set the value #ovtheme.alt.mode to Tr
 ![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/onlinevideos home tab/Media/PreviewAlt.png)
 
 ##Versions of Apollo supported:
-* [v1.0.0.8](https://github.com/ministerkrister/apollo-ov-theme/releases/tag/v1.0.0.8)
+* [v1.0.0.8](https://github.com/ministerkrister/apollo-ov-theme/releases/tag/v1.0.0.8.1)
 * [v1.0.0.7](https://github.com/ministerkrister/apollo-ov-theme/releases/tag/v1.0.0.7) 
 * Older versions see [Apollo mods](http://forum.team-mediaportal.com/threads/mods.131153/) 
 
