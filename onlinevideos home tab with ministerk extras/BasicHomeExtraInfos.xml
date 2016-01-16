@@ -153,7 +153,7 @@
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="fade" delay="0" time="500">hidden</animation>
 		<animation effect="fade" delay="0" time="500">visible</animation>
-		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!string.equals(#skin.rss.info,True)</visible>
+		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(90000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!control.isvisible(10000)+!control.isvisible(90000)+!string.equals(#skin.rss.info,True)</visible>
       </control>
 
 	  <control>
@@ -168,7 +168,7 @@
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="fade" delay="0" time="500">hidden</animation>
 		<animation effect="fade" delay="0" time="500">visible</animation>
-		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)+!control.hasthumb(50000)]+plugin.isenabled(Latest Media Handler)+!string.equals(#skin.rss.info,True)</visible>
+		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(90000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)+!control.hasthumb(50000)]+plugin.isenabled(Latest Media Handler)+!control.isvisible(10000)+!control.isvisible(90000)+!string.equals(#skin.rss.info,True)</visible>
       </control>
 
 	  
@@ -184,7 +184,7 @@
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="fade" delay="0" time="500">hidden</animation>
 		<animation effect="fade" delay="0" time="500">visible</animation>
-		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!string.equals(#skin.rss.info,True)</visible>
+		<visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(90000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!control.isvisible(10000)+!control.isvisible(90000)+!string.equals(#skin.rss.info,True)</visible>
       </control>
 
 	  <control>
@@ -200,7 +200,7 @@
       <textcolor>ffffffff</textcolor>
 	  <animation effect="fade" delay="0" time="500">hidden</animation>
 	  <animation effect="fade" delay="0" time="500">visible</animation>
-	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!string.equals(#skin.rss.info,True)</visible>
+	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(90000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!control.isvisible(10000)+!control.isvisible(90000)+!string.equals(#skin.rss.info,True)</visible>
     </control>
 	  
 	  <control>
@@ -218,7 +218,7 @@
       <spaceBetweenItems>1</spaceBetweenItems>
 	  <animation effect="fade" delay="0" time="500">hidden</animation>
 	  <animation effect="fade" delay="0" time="500">visible</animation>
-	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!string.equals(#skin.rss.info,True)</visible>
+	  <visible>[control.isvisible(66900)+control.hastext(033281)]+[!control.isvisible(6000)+!control.isvisible(10000)+!control.isvisible(90000)+!control.isvisible(30000)+!control.isvisible(55518)+!control.isvisible(55519)]+plugin.isenabled(Latest Media Handler)+!control.isvisible(10000)+!control.isvisible(90000)+!string.equals(#skin.rss.info,True)</visible>
     </control>
 	
 	
@@ -466,7 +466,7 @@
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="fade" delay="0" time="500">hidden</animation>
 		<animation effect="fade" delay="0" time="500">visible</animation>
-		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hasthumb(10000)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)]</visible>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hasthumb(10000)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+!string.equals(#ovtheme.games.mode,True)]</visible>
       </control>
 	  
 	  <control>
@@ -481,7 +481,7 @@
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="fade" delay="0" time="500">hidden</animation>
 		<animation effect="fade" delay="0" time="500">visible</animation>
-        <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hasthumb(10000)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)]</visible>
+        <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hasthumb(10000)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+!string.equals(#ovtheme.games.mode,True)]</visible>
       </control>
 
 	  <control>
@@ -497,10 +497,9 @@
       <textcolor>ffffffff</textcolor>
 	  <animation effect="fade" delay="0" time="500">hidden</animation>
 	  <animation effect="fade" delay="0" time="500">visible</animation>
-      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hastext(10081)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)]</visible>
+      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hastext(10081)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+!string.equals(#ovtheme.games.mode,True)]</visible>
     </control>
 
-	  
 	  <control>
       <type>textbox</type>
       <id>10001</id>
@@ -514,7 +513,7 @@
       <textcolor>ffffffff</textcolor>
 	  <animation effect="fade" delay="0" time="500">hidden</animation>
 	  <animation effect="fade" delay="0" time="500">visible</animation>
-      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hastext(10001)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)]</visible>
+      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)+control.hastext(10001)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+!string.equals(#ovtheme.games.mode,True)]</visible>
     </control>
 	  <!-- +string.equals(#latestMediaHandler.tvrecordings.latest.enabled,true) -->
 	  <control>
@@ -532,9 +531,96 @@
       <spaceBetweenItems>1</spaceBetweenItems>
 	  <animation effect="fade" delay="0" time="500">hidden</animation>
 	  <animation effect="fade" delay="0" time="500">visible</animation>
-      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hastext(10081)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)]</visible>
+      <visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hastext(10081)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+!string.equals(#ovtheme.games.mode,True)]</visible>
     </control>
-	  	  
+
+    		  <!--     *************************   Latest Games   ************************  -->
+
+              <control>
+        <description>BasicHome tile4</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>160</height>
+		<width>250</width>
+        <texture mask="tile_000.png" overlay="">black.png</texture>
+        <colordiffuse>99ffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+string.equals(#ovtheme.games.mode,True)]</visible>
+      </control>
+
+  <control>
+        <description>BasicHome games</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>110</posX>
+        <posY>871</posY>
+		<height>171</height>
+		<width>261</width>
+        <texture>tvshadow.png</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+string.equals(#ovtheme.games.mode,True)]</visible>
+      </control>
+
+  
+  
+  <control>
+        <description>BasicHome games</description>
+        <type>image</type>
+        <id>90000</id>
+        <posX>115</posX>
+        <posY>875</posY>
+		<height>160</height>
+		<width>250</width>
+      <zoom>no</zoom>
+      <keepaspectratio>yes</keepaspectratio>
+	  <centered>yes</centered>
+      
+        <texture mask="postermask.png">#Latest.Game.Rotate.Boxart</texture>
+        <colordiffuse>ffffffff</colordiffuse>
+		<animation effect="fade" delay="0" time="500">hidden</animation>
+		<animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+string.equals(#ovtheme.games.mode,True)]</visible>
+      </control>
+
+
+	  <control>
+      <type>textbox</type>
+      <id>0</id>
+      <posX>380</posX>
+      <posY>880</posY>
+      <width>1550</width>
+      <height>140</height>
+      <label>#Latest.Game.Rotate.Title</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>ffffffff</textcolor>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hasthumb(90000)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+string.equals(#ovtheme.games.mode,True)]</visible>
+    </control>
+	  <!-- +string.equals(#latestMediaHandler.tvrecordings.latest.enabled,true) -->
+	  <control>
+      <type>textboxscrollup</type>
+      <id>1</id>
+      <posX>380</posX>
+      <posY>920</posY>
+      <width>1440</width>
+      <height>110</height>
+      <label>#Latest.Game.Rotate.Description</label>
+      <align>left</align>
+      <font>font11</font>
+      <textcolor>99ffffff</textcolor>
+	  <scrollStartDelaySec>20</scrollStartDelaySec>
+      <spaceBetweenItems>1</spaceBetweenItems>
+	  <animation effect="fade" delay="0" time="500">hidden</animation>
+	  <animation effect="fade" delay="0" time="500">visible</animation>
+		<visible>[control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)|control.hasfocus(4)]+control.hasthumb(90000)+[!string.equals(#skin.rss.info, "True")+!string.equals(#skin.record.info,'False')+!string.equals(#skin.rss.info,True)+string.equals(#ovtheme.games.mode,True)]</visible>
+    </control>
     </control>
 
   </controls>

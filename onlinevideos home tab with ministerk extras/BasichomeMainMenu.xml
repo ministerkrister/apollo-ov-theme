@@ -85,7 +85,7 @@
       <posX>615</posX>
       <posY>120</posY>
       <height>45</height>
-      <width>180</width>
+      <width>160</width>
       <hyperlink>9811</hyperlink>
         <label>#menu.label3</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
@@ -105,10 +105,10 @@
         <description>BasicHome TV</description>
         <type>button</type>
         <id>4</id>
-        <posX>795</posX>
+        <posX>775</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>135</width>
+        <width>155</width>
         <hyperlink>600</hyperlink>
         <label>#menu.label4</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
@@ -217,7 +217,7 @@
 		<font>font14</font>
         <onleft>0011223</onleft>
         <onup>22</onup>
-		<ondown>77785</ondown>
+		<ondown>95510</ondown>
 		<onright>6</onright>
         <animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
       </control>
@@ -308,7 +308,7 @@
       <posX>615</posX>
       <posY>120</posY>
       <height>45</height>
-      <width>180</width>
+      <width>160</width>
       <label>#menu.label3</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
@@ -323,10 +323,10 @@
         <description>BasicHome TV</description>
         <type>button</type>
         <id>0</id>
-        <posX>795</posX>
+        <posX>775</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>135</width>
+        <width>155</width>
         <label>#menu.label4</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>

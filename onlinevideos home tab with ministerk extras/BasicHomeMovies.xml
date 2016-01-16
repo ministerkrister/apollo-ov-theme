@@ -97,10 +97,10 @@
         <description>GLOW</description>
         <type>image</type>
         <id>0</id>
-        <posX>718</posX>
-        <posY>509</posY>
-		<height>319</height>
-		<width>557</width>
+        <posX>714</posX>
+        <posY>503</posY>
+		<height>327</height>
+		<width>566</width>
         <texture>glowbtnsmall.png</texture>
         <colordiffuse>ffffffff</colordiffuse>
 		<animation effect="slide" start="0,0" end="-2500,0" reversible="true" time="350" condition="control.isVisible(666002)">Conditional</animation>
@@ -182,10 +182,10 @@
         <description>BasicHome tile2</description>
         <type>button</type>
         <id>58511</id>
-		<posX>730</posX>
-        <posY>518</posY>
-		<height>301</height>
-		<width>536</width>
+		<posX>725</posX>
+        <posY>514</posY>
+		<height>309</height>
+		<width>546</width>
 		<label>#home.movies3</label>
 		<oninfo>#(skin.setfocus(35,273))</oninfo>
 		<hyperlinkParameter>#Movies.hyperlink2</hyperlinkParameter>

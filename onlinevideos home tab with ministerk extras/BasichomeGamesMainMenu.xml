@@ -10,7 +10,7 @@
       <description>group element</description>
       <type>group</type>
       <layout>StackLayout(6, Horizontal, true)</layout>
-	  <posX>460</posX>
+	  <posX>390</posX>
       <posY>123</posY>
 	  <height>20</height>
 	  <align>center</align>
@@ -38,7 +38,7 @@
         <posX>315</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>130</width>
+        <width>135</width>
         <hyperlink>4755</hyperlink>
         <label>#ovtheme.menu.name</label>
         <textcolorNoFocus>ff6c7880</textcolorNoFocus>
@@ -57,10 +57,10 @@
       <control Style="BasicHomeButton">
         <description>BasicHome MovingPictures</description>
         <type>button</type>
-        <posX>840</posX>
+        <posX>450</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>160</width>
+        <width>165</width>
         <id>2</id>
 		<hyperlink>#skin.movietile.hyperlink</hyperlink>
         <label>#menu.label2</label>
@@ -82,10 +82,10 @@
         <description>BasicHome TVSeries</description>
         <type>button</type>
         <id>3</id>
-      <posX>1080</posX>
+      <posX>615</posX>
       <posY>120</posY>
       <height>45</height>
-      <width>155</width>
+      <width>160</width>
       <hyperlink>9811</hyperlink>
         <label>#menu.label3</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
@@ -95,22 +95,22 @@
 		<textalign>left</textalign>
 		<font>font14</font>
 		<onleft>2</onleft>
-        <onright>#skin.tvnavright</onright>
+        <onright>4</onright>
         <onup>22</onup>
         <ondown>55512</ondown>
 		<animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
       </control>
-      
-	  <control Style="BasicHomeButton">
+
+      <control Style="BasicHomeButton">
         <description>BasicHome TV</description>
         <type>button</type>
         <id>4</id>
-		<posX>1105</posX>
+        <posX>775</posX>
         <posY>120</posY>
-		<height>45</height>
-		<width>0</width>
-		<hyperlink>600</hyperlink>
-        <label>#menu.label4</label>
+        <height>45</height>
+        <width>155</width>
+		<hyperlink>#ovtheme.games.tile1.hyperlink</hyperlink>
+        <label>#ovtheme.menu.games.name</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
 		<textcolor>white</textcolor>
 		<textureFocus>-</textureFocus>
@@ -128,10 +128,10 @@
         <description>BasicHome audio</description>
         <type>button</type>
         <id>5</id>
-        <posX>1330</posX>
+        <posX>930</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>165</width>
+        <width>145</width>
         <hyperlink>501</hyperlink>
         <label>#menu.label5</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
@@ -140,7 +140,7 @@
 		<textureNoFocus>-</textureNoFocus>
 		<textalign>left</textalign>
 		<font>font14</font>
-        <onleft>#skin.tvnavleft</onleft>
+        <onleft>4</onleft>
         <onup>22</onup>
         <ondown>55518</ondown>
 		<onright>5005</onright>
@@ -151,13 +151,13 @@
         <description>BasicHome plugins</description>
         <type>button</type>
         <id>5005</id>
-      <posX>1350</posX>
+      <posX>1075</posX>
       <posY>120</posY>
-      <hyperlink>#tile1.hyperlink</hyperlink>
-		<oninfo>#(skin.setfocus(35,450))</oninfo>
       <height>45</height>
       <width>305</width>
-      <label>#menu.label6</label>
+      <hyperlink>#tile1.hyperlink</hyperlink>
+		<oninfo>#(skin.setfocus(35,450))</oninfo>
+        <label>#menu.label6</label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
 		<textcolor>white</textcolor>
 		<textureFocus>-</textureFocus>
@@ -171,18 +171,17 @@
 		<animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
       </control>
 		
-	  
-	  
 	  <control Style="BasicHomeButton">
         <description>BasicHome settings</description>
         <type>button</type>
         <id>0011223</id>
-		<posX>120</posX>
-        <posY>1005</posY>
+      <posX>120</posX>
+      <posY>1005</posY>
+      <height>43</height>
+      <width>43</width>
+
 		<hyperlink>4</hyperlink>
 		<oninfo>#(skin.setfocus(35,269))</oninfo>
-		<height>43</height>
-		<width>43</width>
         <label></label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
@@ -203,11 +202,12 @@
         <description>BasicHome exit</description>
         <type>button</type>
         <id>5006</id>
-        <posX>420</posX>
+        <posX>320</posX>
         <posY>117</posY>
-        <action>99</action>
+        <width>65</width>
+
+		<action>99</action>
 		<height>65</height>
-		<width>65</width>
         <label></label>
 		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
 		<textcolor>white</textcolor>
@@ -226,7 +226,7 @@
         <id>201</id>
         <description>Time</description>
         <type>label</type>
-        <posX>1300</posX>
+        <posX>1380</posX>
         <posY>129</posY>
 		<height>43</height>
 		<width>140</width>
@@ -243,7 +243,7 @@
       <description>group element</description>
       <type>group</type>
       <layout>StackLayout(6, Horizontal, false)</layout>
-	  <posX>460</posX>
+	  <posX>390</posX>
       <posY>123</posY>
 	  <height>20</height>
 	  <align>center</align>
@@ -264,15 +264,15 @@
 		<animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
       </control>
 
-      <control Style="BasicHomeButton">
+            <control Style="BasicHomeButton">
         <description>BasicHome OnlineVideos</description>
         <type>button</type>
         <id>0</id>
-        <posX>315</posX>
-        <posY>120</posY>
-        <height>45</height>
-        <width>130</width>
-        <label>#ovtheme.menu.name</label>
+              <posX>315</posX>
+              <posY>120</posY>
+              <height>45</height>
+              <width>135</width>
+              <label>#ovtheme.menu.name</label>
         <textcolorNoFocus>ffffffff</textcolorNoFocus>
         <textcolor>ffffffff</textcolor>
         <textureFocus></textureFocus>
@@ -282,13 +282,14 @@
         <visible>control.hasfocus(95510)|control.hasfocus(95511)|control.hasfocus(95512)|control.hasfocus(95513)|control.hasfocus(95523)|control.hasfocus(95514)|control.hasfocus(95524)|control.hasfocus(95515)|control.hasfocus(95525)</visible>
       </control>
 
+
       <control Style="BasicHomeButton">
         <description>BasicHome MovingPictures</description>
         <type>button</type>
-        <posX>840</posX>
+        <posX>450</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>160</width>
+        <width>165</width>
         <id>0</id>
         <label>#menu.label2</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
@@ -304,10 +305,10 @@
         <description>BasicHome TVSeries</description>
         <type>button</type>
         <id>0</id>
-      <posX>1080</posX>
+      <posX>615</posX>
       <posY>120</posY>
       <height>45</height>
-      <width>155</width>
+      <width>160</width>
       <label>#menu.label3</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
@@ -317,16 +318,16 @@
 		<font>font14</font>
 		<visible>control.hasfocus(55512)|control.hasfocus(55513)|control.hasfocus(91919994)|control.hasfocus(91919995)|control.hasfocus(91919996)</visible>
       </control>
-	  
-	  <control Style="BasicHomeButton">
+
+      <control Style="BasicHomeButton">
         <description>BasicHome TV</description>
         <type>button</type>
         <id>0</id>
-      <posX>1105</posX>
-      <posY>120</posY>
-      <height>45</height>
-      <width>0</width>
-      <label>#menu.label4</label>
+        <posX>775</posX>
+        <posY>120</posY>
+        <height>45</height>
+        <width>155</width>
+        <label>#ovtheme.menu.games.name</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
 		<textureFocus></textureFocus>
@@ -335,15 +336,15 @@
 		<font>font14</font>
 		<visible>control.hasfocus(55514)|control.hasfocus(55515)|control.hasfocus(55516)|control.hasfocus(55517)|control.hasfocus(68880)</visible>
       </control>
-	  
+      
       <control Style="BasicHomeButton">
         <description>BasicHome audio</description>
         <type>button</type>
         <id>0</id>
-        <posX>1350</posX>
+        <posX>930</posX>
         <posY>120</posY>
         <height>45</height>
-        <width>165</width>
+        <width>145</width>
         <label>#menu.label5</label>
 		<textcolorNoFocus>ffffffff</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
@@ -358,7 +359,7 @@
         <description>BasicHome plugins</description>
         <type>button</type>
         <id>0</id>
-      <posX>1350</posX>
+      <posX>1075</posX>
       <posY>120</posY>
       <height>45</height>
       <width>305</width>

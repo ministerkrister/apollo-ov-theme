@@ -135,7 +135,8 @@
 
     <import>OnlineVideosThemeSettings.xml</import>	
 
-	  <include condition="#(eq(#skin.record.info,'False'))">BasichomeMainMenu.xml</include>
+	  <include condition="#(and(eq(#skin.record.info,'False'),eq(#ovtheme.games.mode,'False')))">BasichomeMainMenu.xml</include>
+	  <include condition="#(and(eq(#skin.record.info,'False'),eq(#ovtheme.games.mode,'True')))">BasichomeGamesMainMenu.xml</include>
 	  <include condition="#(eq(#skin.record.info,'True'))">BasichomeMainMenuDisabledTV.xml</include>
   
 	<import>PluginDefines.xml</import>	
@@ -146,7 +147,9 @@
   <include condition="#(eq(#ovtheme.alt.mode,'True'))">BasicHomeOnlineVideosAlt.xml</include>
   <include condition="#(eq(#ovtheme.alt.mode,'False'))">BasicHomeOnlineVideos.xml</include>
 
-  <import>BasicHomeTV.xml</import>
+	  <include condition="#(and(eq(#skin.record.info,'False'),eq(#ovtheme.games.mode,'False')))">BasicHomeTV.xml</include>
+	  <include condition="#(and(eq(#skin.record.info,'False'),eq(#ovtheme.games.mode,'True')))">BasicHomeGames.xml</include>
+
 	<import>BasicHomeMusic.xml</import>
 	
 	<include condition="#(eq(#skin.plugin.layout,'True'))">BasicHomePluginsExtended.xml</include>

@@ -56,7 +56,45 @@
   <define property="true" evaluateNow="true">#ovtheme.alt.tile8.site:TV4Play</define>
   <define property="true" evaluateNow="true">#ovtheme.alt.tile9.site:Kanal5Play</define>
 
+  <!--     *******************************************************************************************  -->
+  <!--                                         Games mode                                               -->
+  <!--                                          OBSERVE:                                                -->
+  <!--                         TV section must be enabled in Apollo editor!                             -->
+  <!--     *******************************************************************************************  -->
+  
+  <!-- Use games mode or not, set False or True-->
+  <define property="true" evaluateNow="true">#ovtheme.games.mode:True</define>
 
+  <!-- Menu name-->
+  <define property="true" evaluateNow="true">#ovtheme.menu.games.name:games</define>
+  
+  <define property="true" evaluateNow="true">#ovtheme.games.tile1.label:My Emulators</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile1.thumb:Emulators2Big.png</define>
+  <!-- Also used as hyperlink in the main menu -->
+  <define property="true" evaluateNow="true">#ovtheme.games.tile1.hyperlink:7942</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile1.hyperlinkParameter:</define>
+
+  <define property="true" evaluateNow="true">#ovtheme.games.tile2.label:Steam</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile2.thumb:MPsteam.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile2.hyperlink:8465</define> <!--8970-->
+  <define property="true" evaluateNow="true">#ovtheme.games.tile2.hyperlinkParameter:</define>
+
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:NoGame</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:NoGame.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:</define>
+
+  <!--
+  
+   Tile 3 examples:
+   A multishortcut plugin opening minecraft
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:Minecraft</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Minecraft.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:8969</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:</define>
+
+  -->
+ 
   <controls>
   </controls>
 </window>
