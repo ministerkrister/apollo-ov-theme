@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="Theme">
+        <ParentGroup />
+        <DisplayName>Theme</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>The Apollo OnlineVideos and Games theme</Description>
+        <Files>
+          <Items />
+        </Files>
+      </GroupItem>
+      <GroupItem Name="LatestGames">
+        <ParentGroup />
+        <DisplayName>LatestGames</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>If you are planing to use the Games tab you will need this plugin. It displays info about the latest added My Emulators 2 games.</Description>
+        <Files>
+          <Items />
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Spotify">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>Rockstar</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Enables fanart in Rockstar</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="BasicHome">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>BasicHome tabs and tiles</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>BasicHome modifications, OnlineVideos and Games tabs and tiles. </Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHome.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a2e4fb92-ab21-4b37-968d-b35c3cfeeb82}-BasicHome.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHome.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeExtraInfos.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1411172b-8ecd-4380-801b-1298e55f297a}-BasicHomeExtraInfos.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeExtraInfos.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeGames.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{29000813-2513-4b18-8965-300ee8b67345}-BasicHomeGames.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeGames.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasichomeGamesMainMenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0efe90b3-86a0-4ddb-8a85-e0731779449c}-BasichomeGamesMainMenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeGamesMainMenu.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasichomeMainMenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a572b91c-5b9a-4ac7-91d1-3ae3f67d2098}-BasichomeMainMenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeMainMenu.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasichomeMainMenuDisabledTV.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{220cbc8e-8d4b-4c99-a5cd-138bea5e035e}-BasichomeMainMenuDisabledTV.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeMainMenuDisabledTV.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeMovies.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{db647044-710f-4674-b22a-cfdb45325e36}-BasicHomeMovies.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeMovies.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeOnlineVideos.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9af97467-2241-4d7e-a0ba-d137404157ab}-BasicHomeOnlineVideos.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeOnlineVideos.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeOnlineVideosAlt.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fe9d00d7-65c8-4096-b9da-240840f2542a}-BasicHomeOnlineVideosAlt.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeOnlineVideosAlt.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\OnlineVideosThemeSettings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{14500936-fdcf-4346-959e-7a7111ac36b8}-OnlineVideosThemeSettings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\OnlineVideosThemeSettings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\theme.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{44321eb1-5687-473a-995a-0866dea9980d}-theme.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\theme.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\AmazonPrime.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8adfb798-2717-4f00-87c8-7d3361ed5bcb}-AmazonPrime.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\AmazonPrime.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\BackgroundSmall.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a2d41ccd-e237-46bf-896b-e226a6df4a36}-BackgroundSmall.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\BackgroundSmall.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\BBC iPlayer.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{07d0baf3-0b7f-4506-b626-c9299b5f7b04}-BBC iPlayer.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\BBC iPlayer.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\ComedyCentral.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b12cf5e1-1546-498a-9a39-8d65e026f9d8}-ComedyCentral.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\ComedyCentral.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\Emulators2Big.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{458b763f-acdb-45fa-8519-bff65af259b2}-Emulators2Big.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Emulators2Big.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\imdb.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a5757d3e-f54d-4d69-9923-354baf557db9}-imdb.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\imdb.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\Netflix.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fe90034d-ba6a-433d-9b1f-02a463650273}-Netflix.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Netflix.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\NoGame.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1f6e3acd-c356-4b07-9eb0-9bf266617ea6}-NoGame.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\NoGame.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\OnlineVideos.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{492b5e67-e9c6-4e14-9516-a2fcb91dfe45}-OnlineVideos.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\OnlineVideos.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\preview.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5aec010d-4be5-4d5a-b553-0617911c690b}-preview.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\preview.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\PreviewAlt.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8c194071-a87c-4851-a849-3e10a28ed8c2}-PreviewAlt.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\PreviewAlt.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\SVTPlay.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{689c5375-b963-4e12-a47f-9b1ed94c1447}-SVTPlay.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\SVTPlay.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\TV4Play.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{91a67693-c757-4a42-b0dc-b9e3384f0fca}-TV4Play.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\TV4Play.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\URPlay.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d1e9142e-b549-4bba-9d76-1e3489cc394d}-URPlay.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\URPlay.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\Viaplay.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{596191ab-8db6-44a1-82da-e4c253279dd5}-Viaplay.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Viaplay.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\Yle Areena.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7e8f16d3-87cb-4769-8a61-3d4b5c0db995}-Yle Areena.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Yle Areena.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\YouTube.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e5ec77c3-f8f6-4fec-a078-b5f217e92e81}-YouTube.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\YouTube.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\OnlineVideos\NextPage.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e89bebce-f49b-4109-a381-5ea3458cd008}-NextPage.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\OnlineVideos\NextPage.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\Minecraft.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a9e096b5-79a7-4b51-ab5c-c572233820ee}-Minecraft.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Minecraft.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Trakt">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>Trakt episodes</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Trakt episodes, keep aspect ratio of thumb.</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Trakt.Common.Properties.Episodes.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8c0bf9fa-5b3d-469c-9642-ae07e52ee8f4}-Trakt.Common.Properties.Episodes.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Trakt.Common.Properties.Episodes.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Tiles">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>Alternative Tiles</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Some alternative tiles</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\MovieFilter.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{44fc5c47-40a5-4c65-a983-b3b88ee71047}-MovieFilter.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MovieFilter.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\MyMusic.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f4ca6619-41b9-4b9f-bb28-a3d61388f12b}-MyMusic.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MyMusic.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\MyVideo.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{665b2a57-2e74-474c-83a4-3f20c9dd4df3}-MyVideo.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MyVideo.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\rockstar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6fff1173-0a5c-4df5-9b2d-2a70fa554523}-rockstar.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\rockstar.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\tile_015.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7dacb6d6-5bc8-4ebb-af59-ed3be4774cea}-tile_015.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\tile_015.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\Media\unwatchedtv.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ed84045a-caf6-4aef-bbd3-f283c94cc83a}-unwatchedtv.png</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\unwatchedtv.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="f6efcef5-3a89-4b0f-b9e7-259e08b95803" Name="Welcome Screen" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Extension Installer for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] version [Version] on your computer.
+It is recommended that you close all other applications before continuing.
+Click Next to continue or Cancel to exit Setup.</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="235f8ca1-4ae0-46e3-915d-f6968f6f2386" Name="Tree View Selector" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+            <SectionParam Name="Description ">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of this operation</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups>
+          <string>Theme</string>
+          <string>BasicHome</string>
+          <string>Spotify</string>
+          <string>Trakt</string>
+          <string>Tiles</string>
+          <string>LatestGames</string>
+        </IncludedGroups>
+        <PanelName>Tree View Selector</PanelName>
+        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="73f3c38b-01fd-42bc-ba0b-3c0f7cfdc6a1" Name="Install Section" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+            <ActionItem Name="Extension Installer" ActionType="Extension Installer" ConditionGroup="LatestGames">
+              <Params>
+                <Items>
+                  <SectionParam Name="Extension package">
+                    <Value />
+                    <ValueType>File</ValueType>
+                    <Description>Location of the extension package</Description>
+                  </SectionParam>
+                  <SectionParam Name="Extension Id">
+                    <Value>cb5ddc84-520e-455c-9411-093b72f0751d</Value>
+                    <ValueType>String</ValueType>
+                    <Description>Global Id of the extension package - it will be downloaded when no file is set.</Description>
+                  </SectionParam>
+                  <SectionParam Name="Extension Version">
+                    <Value>1.0.0.0</Value>
+                    <ValueType>String</ValueType>
+                    <Description>Minimum Version of the extension package - older versions will be updated (only used when downloading via Id).</Description>
+                  </SectionParam>
+                  <SectionParam Name="Silent Install">
+                    <Value>NO</Value>
+                    <ValueType>Bool</ValueType>
+                    <Description>Silent install, No wizard screen will be displayed </Description>
+                  </SectionParam>
+                </Items>
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="def660c8-5d11-40db-8a5b-162b9b24495b" Name="Setup Complete" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Extension Installer Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value />
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>false</WarnOnly>
+        <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+    </Items>
+  </Dependencies>
+  <PluginDependencies>
+    <Items />
+  </PluginDependencies>
+  <GeneralInfo>
+    <Name>Apollo OnlineVideos and Games Theme</Name>
+    <Id>5badc535-2bfa-4ca5-ac00-f61291342703</Id>
+    <Author>ministerk</Author>
+    <HomePage>https://github.com/ministerkrister/apollo-ov-theme</HomePage>
+    <ForumPage>http://forum.team-mediaportal.com/threads/132725/</ForumPage>
+    <UpdateUrl>https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/Installer/update.xml</UpdateUrl>
+    <Version>
+      <Major>1</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>9</Revision>
+    </Version>
+    <ExtensionDescription />
+    <VersionDescription />
+    <DevelopmentStatus>Stable</DevelopmentStatus>
+    <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.0.0.9/Apollo OnlineVideos and Games Theme_v1.0.0.9.mpe1</OnlineLocation>
+    <ReleaseDate>2016-01-16T23:58:07.3605196+01:00</ReleaseDate>
+    <Tags />
+    <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme\Installer\[Name]_v[Version].mpe1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="Icon">
+          <Value />
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value />
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If it has .exe extension the will be executed.
+ If it has .dll extension it's started like MP plugin configuration.</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value>https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/preview.png;https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/PreviewAlt.png</Value>
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>yes</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHome.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a2e4fb92-ab21-4b37-968d-b35c3cfeeb82}-BasicHome.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHome.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeExtraInfos.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1411172b-8ecd-4380-801b-1298e55f297a}-BasicHomeExtraInfos.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeExtraInfos.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeGames.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{29000813-2513-4b18-8965-300ee8b67345}-BasicHomeGames.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeGames.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasichomeGamesMainMenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0efe90b3-86a0-4ddb-8a85-e0731779449c}-BasichomeGamesMainMenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeGamesMainMenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasichomeMainMenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a572b91c-5b9a-4ac7-91d1-3ae3f67d2098}-BasichomeMainMenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeMainMenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasichomeMainMenuDisabledTV.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{220cbc8e-8d4b-4c99-a5cd-138bea5e035e}-BasichomeMainMenuDisabledTV.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasichomeMainMenuDisabledTV.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeMovies.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{db647044-710f-4674-b22a-cfdb45325e36}-BasicHomeMovies.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeMovies.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeOnlineVideos.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9af97467-2241-4d7e-a0ba-d137404157ab}-BasicHomeOnlineVideos.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeOnlineVideos.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\BasicHomeOnlineVideosAlt.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fe9d00d7-65c8-4096-b9da-240840f2542a}-BasicHomeOnlineVideosAlt.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\BasicHomeOnlineVideosAlt.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\OnlineVideosThemeSettings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{14500936-fdcf-4346-959e-7a7111ac36b8}-OnlineVideosThemeSettings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\OnlineVideosThemeSettings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\theme.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{44321eb1-5687-473a-995a-0866dea9980d}-theme.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\theme.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\AmazonPrime.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8adfb798-2717-4f00-87c8-7d3361ed5bcb}-AmazonPrime.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\AmazonPrime.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\BackgroundSmall.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a2d41ccd-e237-46bf-896b-e226a6df4a36}-BackgroundSmall.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\BackgroundSmall.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\BBC iPlayer.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{07d0baf3-0b7f-4506-b626-c9299b5f7b04}-BBC iPlayer.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\BBC iPlayer.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\ComedyCentral.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b12cf5e1-1546-498a-9a39-8d65e026f9d8}-ComedyCentral.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\ComedyCentral.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\Emulators2Big.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{458b763f-acdb-45fa-8519-bff65af259b2}-Emulators2Big.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Emulators2Big.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\imdb.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a5757d3e-f54d-4d69-9923-354baf557db9}-imdb.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\imdb.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\Netflix.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fe90034d-ba6a-433d-9b1f-02a463650273}-Netflix.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Netflix.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\NoGame.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1f6e3acd-c356-4b07-9eb0-9bf266617ea6}-NoGame.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\NoGame.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\OnlineVideos.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{492b5e67-e9c6-4e14-9516-a2fcb91dfe45}-OnlineVideos.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\OnlineVideos.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\preview.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5aec010d-4be5-4d5a-b553-0617911c690b}-preview.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\preview.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\PreviewAlt.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8c194071-a87c-4851-a849-3e10a28ed8c2}-PreviewAlt.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\PreviewAlt.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\SVTPlay.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{689c5375-b963-4e12-a47f-9b1ed94c1447}-SVTPlay.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\SVTPlay.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\TV4Play.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{91a67693-c757-4a42-b0dc-b9e3384f0fca}-TV4Play.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\TV4Play.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\URPlay.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d1e9142e-b549-4bba-9d76-1e3489cc394d}-URPlay.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\URPlay.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\Viaplay.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{596191ab-8db6-44a1-82da-e4c253279dd5}-Viaplay.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Viaplay.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\Yle Areena.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7e8f16d3-87cb-4769-8a61-3d4b5c0db995}-Yle Areena.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Yle Areena.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\YouTube.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e5ec77c3-f8f6-4fec-a078-b5f217e92e81}-YouTube.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\YouTube.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\OnlineVideos\NextPage.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e89bebce-f49b-4109-a381-5ea3458cd008}-NextPage.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\OnlineVideos\NextPage.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\Minecraft.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a9e096b5-79a7-4b51-ab5c-c572233820ee}-Minecraft.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\Minecraft.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Trakt.Common.Properties.Episodes.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8c0bf9fa-5b3d-469c-9642-ae07e52ee8f4}-Trakt.Common.Properties.Episodes.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Trakt.Common.Properties.Episodes.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\MovieFilter.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{44fc5c47-40a5-4c65-a983-b3b88ee71047}-MovieFilter.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MovieFilter.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\MyMusic.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f4ca6619-41b9-4b9f-bb28-a3d61388f12b}-MyMusic.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MyMusic.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\MyVideo.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{665b2a57-2e74-474c-83a4-3f20c9dd4df3}-MyVideo.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\MyVideo.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\rockstar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6fff1173-0a5c-4df5-9b2d-2a70fa554523}-rockstar.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\rockstar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\tile_015.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7dacb6d6-5bc8-4ebb-af59-ed3be4774cea}-tile_015.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\tile_015.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\Media\unwatchedtv.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ed84045a-caf6-4aef-bbd3-f283c94cc83a}-unwatchedtv.png</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\unwatchedtv.png</DestinationFilename>
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups />
+    <ProjectFilename>ApolloOvTheme.xmp2</ProjectFilename>
+    <UpdatePath1>C:\Users\Kristofer\Source\Repos\apollo-ov-theme\Installer\update.xml</UpdatePath1>
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+  <IsSkin>false</IsSkin>
+</PackageClass>
