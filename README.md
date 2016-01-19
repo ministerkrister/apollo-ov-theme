@@ -5,9 +5,9 @@ This is a simple theme/mod for the excellent [Apollo](http://forum.team-mediapor
 The themes comes in two different modes, Normal and Alternative.
 Configure in OnlineVideosThemeSettings.xml set the value #ovtheme.alt.mode to True for alternative mode.
 ###Preview "Normal" mode
-![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/onlinevideos home tab/Media/preview.png)
+![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/preview.png)
 ###Preview "Alt" mode
-![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/onlinevideos home tab/Media/PreviewAlt.png)
+![Play BasicHome Preview](https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/PreviewAlt.png)
 
 ##Versions of Apollo supported:
 * [v1.0.0.8](https://github.com/ministerkrister/apollo-ov-theme/releases/tag/v1.0.0.8.1)
