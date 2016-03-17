@@ -2,51 +2,66 @@
 <window>
 
   <!--     *******************************************************************************************  -->
-  <!--     Define online video tab names and sites                                                      -->
+  <!--                                                                                                  -->
+  <!--     Define online video tab names and sites and mode                                             -->
+  <!--                                                                                                  -->
   <!--     *******************************************************************************************  -->
-
 
   <!-- Menu name-->
   <define property="true" evaluateNow="true">#ovtheme.menu.name:play</define>
 
   <!-- Tile 1 OnlineVideos-->
   <define property="true" evaluateNow="true">#ovtheme.tile1.name:OnlineVideos</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile1.thumb:OnlineVideos.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile1.thumb:Tiles\OnlineVideos.png</define>
 
-  <!-- Use alternative mode or not, set False or True-->
-  <define property="true" evaluateNow="true">#ovtheme.alt.mode:False</define>
-
+  
+  
   <!--     *******************************************************************************************  -->
-  <!--     Normal mode site tiles                                                                       -->
+  <!--                                                                                                  -->
+  <!--                                        Site & Tiles                                              -->
+  <!--                                                                                                  -->
+  <!--                                 Normal mode site tiles                                           -->
+  <!--                                                                                                  -->
   <!--     *******************************************************************************************  -->
 
   <!-- Tile 2 (Site 1) -->
   <define property="true" evaluateNow="true">#ovtheme.tile2.site:TV4Play</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile2.thumb:TV4Play.png</define>
-  <!-- Tile 3 (Site 2)-->
+  <define property="true" evaluateNow="true">#ovtheme.tile2.thumb:Tiles\TV4Play.png</define>
+  <!-- Tile 3 (Site 2) -->
   <define property="true" evaluateNow="true">#ovtheme.tile3.site:SVTPlay</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile3.thumb:SVTPlay.png</define>
-  <!-- Tile 4 (Site 3) -->
+  <define property="true" evaluateNow="true">#ovtheme.tile3.thumb:Tiles\SVTPlay.png</define>
+  <!-- Tile 4 (Site 3)  -->
   <define property="true" evaluateNow="true">#ovtheme.tile4.site:Netflix</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile4.thumb:Netflix.png</define>
-  <!-- Tile 5 (Site 4)  Not visible in alt. mode -->
+  <define property="true" evaluateNow="true">#ovtheme.tile4.thumb:Tiles\Netflix.png</define>
+  <!-- Tile 5 (Site 4) -->
   <define property="true" evaluateNow="true">#ovtheme.tile5.site:URPlay</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile5.thumb:URPlay.png</define>
-  <!-- Tile 6 (Site 5) Not visible in alt. mode -->
+  <define property="true" evaluateNow="true">#ovtheme.tile5.thumb:Tiles\URPlay.png</define>
+  <!-- Tile 6 (Site 5) -->
   <define property="true" evaluateNow="true">#ovtheme.tile6.site:Viaplay.se</define>
-  <define property="true" evaluateNow="true">#ovtheme.tile6.thumb:Viaplay.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.tile6.thumb:Tiles\Viaplay.png</define>
 
   <!--     *******************************************************************************************  -->
-  <!--     Alternative mode site tiles                                                                  -->
+  <!--                                                                                                  -->
+  <!--                                        Site & Tiles                                              -->
+  <!--                                                                                                  -->
+  <!--                                Alternative mode site tiles                                       -->
+  <!--                                                                                                  -->
   <!--     *******************************************************************************************  -->
 
+  
+  <!--                       Use alternative mode or not, set False or True                             -->
+  
+  <define property="true" evaluateNow="true">#ovtheme.alt.mode:False</define>
+
+  
+  
   <!-- Big tiles -->
   <!-- Tile 2 (Site 1) -->
   <define property="true" evaluateNow="true">#ovtheme.alt.tile2.site:YouTube</define>
-  <define property="true" evaluateNow="true">#ovtheme.alt.tile2.thumb:YouTube.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.alt.tile2.thumb:Tiles\YouTube.png</define>
   <!-- Tile 3 (Site 2)-->
   <define property="true" evaluateNow="true">#ovtheme.alt.tile3.site:Netflix</define>
-  <define property="true" evaluateNow="true">#ovtheme.alt.tile3.thumb:Netflix.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.alt.tile3.thumb:Tiles\Netflix.png</define>
 
   <!-- Small tiles-->
   <define property="true" evaluateNow="true">#ovtheme.alt.tile4.site:SVTPlay</define>
@@ -54,46 +69,72 @@
   <define property="true" evaluateNow="true">#ovtheme.alt.tile6.site:Viaplay.se</define>
   <define property="true" evaluateNow="true">#ovtheme.alt.tile7.site:Viasat</define>
   <define property="true" evaluateNow="true">#ovtheme.alt.tile8.site:TV4Play</define>
-  <define property="true" evaluateNow="true">#ovtheme.alt.tile9.site:Kanal5Play</define>
+  <define property="true" evaluateNow="true">#ovtheme.alt.tile9.site:Dplay.se</define>
 
+  
   <!--     *******************************************************************************************  -->
+  <!--                                                                                                  -->
   <!--                                         Games mode                                               -->
+  <!--                                                                                                  -->
+  <!--                              Replaces TV section in Basic Home                                   -->
   <!--                                          OBSERVE:                                                -->
-  <!--                         TV section must be enabled in Apollo editor!                             -->
+  <!--                         TV section MUST be enabled in Apollo editor!                             -->
+  <!--                                                                                                  -->
   <!--     *******************************************************************************************  -->
   
-  <!-- Use games mode or not, set False or True-->
-  <define property="true" evaluateNow="true">#ovtheme.games.mode:True</define>
+  
+  <!--                           Use games mode or not, set False or True                               -->
+  
+  <define property="true" evaluateNow="true">#ovtheme.games.mode:False</define>
 
+  
+  
   <!-- Menu name-->
   <define property="true" evaluateNow="true">#ovtheme.menu.games.name:games</define>
   
   <define property="true" evaluateNow="true">#ovtheme.games.tile1.label:My Emulators</define>
-  <define property="true" evaluateNow="true">#ovtheme.games.tile1.thumb:Emulators2Big.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile1.thumb:Tiles\Emulators2Big.png</define>
   <!-- Also used as hyperlink in the main menu -->
   <define property="true" evaluateNow="true">#ovtheme.games.tile1.hyperlink:7942</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile1.hyperlinkParameter:</define>
 
   <define property="true" evaluateNow="true">#ovtheme.games.tile2.label:Steam</define>
-  <define property="true" evaluateNow="true">#ovtheme.games.tile2.thumb:MPsteam.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile2.thumb:Tiles\MPsteam.png</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile2.hyperlink:8465</define> <!--8970-->
   <define property="true" evaluateNow="true">#ovtheme.games.tile2.hyperlinkParameter:</define>
 
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:NoGame</define>
-  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:NoGame.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Tiles\NoGame.png</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:</define>
 
   <!--
   
-   Tile 3 examples:
-   A multishortcut plugin opening minecraft
+                       Game Tile 3 (or tile 2) EXAMPLES:
+                       *********************************
+                       
+   * A multishortcut plugin opening minecraft (Multishortcut id 8969):
+   
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:Minecraft</define>
-  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Minecraft.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Tiles\Minecraft.png</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:8969</define>
   <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:</define>
 
-  -->
+  * Example of opening minecraft (asuming game id 5) through MyEmulators (id: 7942):
+   
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:Minecraft</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Tiles\Minecraft.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:7942</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:rom:5;launch:true</define>
+
+  * No game:
+
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.label:NoGame</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.thumb:Tiles\NoGame.png</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlink:</define>
+  <define property="true" evaluateNow="true">#ovtheme.games.tile3.hyperlinkParameter:</define>
+
+-->
  
   <controls>
   </controls>

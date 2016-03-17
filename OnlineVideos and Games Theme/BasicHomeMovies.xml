@@ -129,8 +129,8 @@
 		<hyperlink>#skin.movietile.hyperlink</hyperlink>
 		<textcolorNoFocus>ff999999</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">tile_007.png</textureFocus>
-		<textureNoFocus>tile_007.png</textureNoFocus>
+		<textureFocus overlay="">Tiles\#tile7texture.png</textureFocus>
+		<textureNoFocus>Tiles\#tile7texture.png</textureNoFocus>
 		<textalign>center</textalign>
 		<textYOff>265</textYOff>
 		<font>font13</font>
@@ -159,8 +159,8 @@
         <label>#home.movies2</label>
 		<textcolorNoFocus>ff999999</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="black1.png">#002.tileplugin.hyperlink.png</textureFocus>
-		<textureNoFocus>#002.tileplugin.hyperlink.png</textureNoFocus>
+		<textureFocus overlay="black1.png">Tiles\#tile8texture.png</textureFocus>
+		<textureNoFocus>Tiles\#tile8texture.png</textureNoFocus>
 		<textalign>center</textalign>
 		<textYOff>110</textYOff>
 		<font>font13</font>
@@ -192,8 +192,8 @@
 		<hyperlink>#mtsettings.hp</hyperlink>
 		<textcolorNoFocus>ff999999</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="black1.png">#mtsettings.hyperlink.png</textureFocus>
-		<textureNoFocus>#mtsettings.hyperlink.png</textureNoFocus>
+		<textureFocus overlay="black1.png">Tiles\#tile9texture.png</textureFocus>
+		<textureNoFocus>Tiles\#tile9texture.png</textureNoFocus>
 		<textalign>center</textalign>
 		<textYOff>110</textYOff>
 		<font>font13</font>

@@ -93,17 +93,17 @@
         <UpdateUrl>https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/Installer/update.xml</UpdateUrl>
         <Version>
           <Major>1</Major>
-          <Minor>0</Minor>
+          <Minor>1</Minor>
           <Build>0</Build>
-          <Revision>9</Revision>
+          <Revision>0</Revision>
         </Version>
         <ExtensionDescription />
         <VersionDescription />
         <DevelopmentStatus>Stable</DevelopmentStatus>
         <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.0.0.9/Apollo OnlineVideos and Games Theme_v1.0.0.9.mpe1</OnlineLocation>
-        <ReleaseDate>2016-01-16T23:58:07.3605196+01:00</ReleaseDate>
+        <ReleaseDate>2016-03-17T23:58:07</ReleaseDate>
         <Tags />
-        <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme\Installer\[Name]_v[Version].mpe1</Location>
+        <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme2\Installer\[Name]_v[Version].mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
@@ -119,12 +119,12 @@
  If it has .dll extension it's started like MP plugin configuration.</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/preview.png;https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/PreviewAlt.png</Value>
+              <Value>https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/preview.png;https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/PreviewAlt.png;https://raw.githubusercontent.com/ministerkrister/apollo-ov-theme/master/OnlineVideos%20and%20Games%20Theme/Media/PreviewGames.png</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
             <SectionParam Name="Force to uninstall on update">
-              <Value>yes</Value>
+              <Value>YES</Value>
               <ValueType>Bool</ValueType>
               <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
             </SectionParam>
