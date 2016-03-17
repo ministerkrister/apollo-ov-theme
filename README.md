@@ -29,7 +29,7 @@ When istalling you can choose to install:
 * LatestGames process plugin. Showing latest MyEmulators games in BasicHome. Install this if you are planning to use Games mode.
 
 You can configure some properties by editing the OnlineVideosThemeSettings.xml file located in the theme folder.
-* Name of the tab in BasicHome (default: play)
+* Name of the OnlineVideos tab in BasicHome (default: play)
 * Name of the OnlineVideos tile (default: OnlineVideos)
 * Sites for the sites tiles. Defaults (Normal mode):
   * TV4Play
@@ -47,6 +47,9 @@ You can configure some properties by editing the OnlineVideosThemeSettings.xml f
   * TV4Play
   * Dplay.se
 * Change the image for each tile
+* Games mode
+  * labels, hyperlinks and hyperlinkParameters for all games tiles (not latest games tiles)
+  * Name of the games tab in BasicHome (default: games)
 
 ##Features
 * livetv is available in BasicHome if enabled in Apollo skin settings (new in v1.0.0.8)
