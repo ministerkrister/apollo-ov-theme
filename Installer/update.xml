@@ -100,10 +100,10 @@
         <ExtensionDescription />
         <VersionDescription />
         <DevelopmentStatus>Stable</DevelopmentStatus>
-        <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.0.0/Apollo OnlineVideos and Games Theme_v1.1.0.0.mpe1</OnlineLocation>
+        <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.0.0/Apollo.OnlineVideos.and.Games.Theme_v1.1.0.0.mpe1</OnlineLocation>
         <ReleaseDate>2016-03-17T23:58:07</ReleaseDate>
         <Tags />
-        <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme2\Installer\[Name]_v[Version].mpe1</Location>
+        <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme2\Installer\Apollo.OnlineVideos.and.Games.Theme_v[Version].mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
