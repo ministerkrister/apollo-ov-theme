@@ -415,25 +415,13 @@
       <font>font10</font>
       <textcolor>99ffffff</textcolor>
       <animation effect="rotate" delay="0" end="90" time="0" loop="false" condition="true">Conditional</animation>
-    </control>	
-    <control>
-      <type>label</type>
-      <id>1</id>
-      <posX>330</posX>
-      <posY>990</posY>
-      <width>150</width>
-      <label>#currentplaytime &gt; #currentremaining</label>
-      <align>left</align>
-      <textcolor>99ffffff</textcolor>
-      <font>font11</font>
-      <visible>Player.HasAudio</visible>
     </control>
     <control>
       <type>fadelabel</type>
       <id>1</id>
       <posX>330</posX>
       <posY>990</posY>
-      <width>150</width>
+      <width>350</width>
       <label>#currentplaytime &gt; #currentremaining</label>
       <align>left</align>
       <textcolor>99ffffff</textcolor>
