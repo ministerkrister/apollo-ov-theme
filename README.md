@@ -19,7 +19,7 @@ You can also enable Games mode that replaces the livetv tab. Set the value of #o
 * Older versions see [Apollo mods](http://forum.team-mediaportal.com/threads/mods.131153/) 
 
 ##Installation and configuration
-Since v1.1.0.0: Download the [Apollo OnlineVideos and Games Theme_v1.1.0.0.mpe1](https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.0.0/Apollo OnlineVideos and Games Theme_v1.1.0.0.mpe1) file on the release page. 
+Since v1.1.0.0: Download the [Apollo.OnlineVideos.and.Games.Theme_v1.1.0.0.mpe1](https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.0.0/Apollo.OnlineVideos.and.Games.Theme_v1.1.0.0.mpe1) file on the release page. 
 
 When istalling you can choose to install:
 * BasicHome tabs and tiles (basic functionality of the theme)
