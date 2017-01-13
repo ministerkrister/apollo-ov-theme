@@ -21,23 +21,6 @@
           <Items />
         </Files>
       </GroupItem>
-      <GroupItem Name="Spotify">
-        <ParentGroup>Theme</ParentGroup>
-        <DisplayName>Rockstar</DisplayName>
-        <DefaulChecked>true</DefaulChecked>
-        <Description>Enables fanart in Rockstar</Description>
-        <Files>
-          <Items>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
-            </FileItem>
-          </Items>
-        </Files>
-      </GroupItem>
       <GroupItem Name="BasicHome">
         <ParentGroup>Theme</ParentGroup>
         <DisplayName>BasicHome tabs and tiles</DisplayName>
@@ -262,6 +245,56 @@
               <ZipFileName>Installer{CopyFile}\{41918743-b400-4e98-8422-30cc2fdcfc81}-PreviewGames.png</ZipFileName>
               <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\PreviewGames.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\OnlineVideosThemeSettings.Default.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4a4a70ce-8270-4581-a19f-432a98bfbbce}-OnlineVideosThemeSettings.Default.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\OnlineVideosThemeSettings.Default.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="OnlineVideos">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>OnlineVideos</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Modified OnlineVideos details view. Keeping aspect ration, showing plot for all sites with enabled details view.
+Fanart background for Draken Film site.
+        </Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\myonlinevideos.details.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{62c1d711-54cb-4353-8e57-bbe8366a3f17}-myonlinevideos.details.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\myonlinevideos.details.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\myonlinevideos.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{04d704e9-d7fd-4c6a-bc37-86322b2e5785}-myonlinevideos.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\myonlinevideos.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Spotify">
+        <ParentGroup>Theme</ParentGroup>
+        <DisplayName>Rockstar</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Enables fanart in Rockstar</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -403,6 +436,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <IncludedGroups>
           <string>Theme</string>
           <string>BasicHome</string>
+          <string>OnlineVideos</string>
           <string>Spotify</string>
           <string>Trakt</string>
           <string>Tiles</string>
@@ -542,14 +576,21 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Version>
       <Major>1</Major>
       <Minor>1</Minor>
-      <Build>0</Build>
+      <Build>1</Build>
       <Revision>0</Revision>
     </Version>
-    <ExtensionDescription />
-    <VersionDescription />
+    <ExtensionDescription>This is a theme/mod for the excellent Apollo skin for Mediaportal and it comes with two OnlineVideos tab layouts and one Games tab layout that replaces the TV tab if enabled.
+
+NOTE: If upgrading from an old version, please make a backup of your OnlineVideosThemeSettings.xml and restore it after install.</ExtensionDescription>
+    <VersionDescription>* NOTE: If upgrading from an old version, please make a backup of your OnlineVideosThemeSettings.xml and restore it after install.
+* Small adjustment of BasicHome latest OnlineVideos
+* Small fix/adjustment of the position of the title and description elements in OnlineVideos
+* Mod of OnlineVideos details view.
+* Minor label fix for Rockstar
+* New Netflix tile (manually save the old one if you like it)</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.0.0/Apollo.OnlineVideos.and.Games.Theme_v1.1.0.0.mpe1</OnlineLocation>
-    <ReleaseDate>2016-03-17T23:58:07</ReleaseDate>
+    <OnlineLocation>https://github.com/ministerkrister/apollo-ov-theme/releases/download/v1.1.1.0/Apollo.OnlineVideos.and.Games.Theme_v1.1.1.0.mpe1</OnlineLocation>
+    <ReleaseDate>2017-01-13T23:58:07</ReleaseDate>
     <Tags />
     <Location>C:\Users\Kristofer\Source\Repos\apollo-ov-theme2\Installer\Apollo.OnlineVideos.and.Games.Theme_v[Version].mpe1</Location>
     <Params>
@@ -586,13 +627,6 @@ Click Next to continue or Cancel to exit Setup.</Value>
   </GeneralInfo>
   <UniqueFileList>
     <Items>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
-      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
@@ -809,6 +843,34 @@ Click Next to continue or Cancel to exit Setup.</Value>
         <LocalFileName>..\OnlineVideos and Games Theme\Media\PreviewGames.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{41918743-b400-4e98-8422-30cc2fdcfc81}-PreviewGames.png</ZipFileName>
         <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\Media\PreviewGames.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\OnlineVideosThemeSettings.Default.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4a4a70ce-8270-4581-a19f-432a98bfbbce}-OnlineVideosThemeSettings.Default.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\OnlineVideosThemeSettings.Default.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\myonlinevideos.details.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{62c1d711-54cb-4353-8e57-bbe8366a3f17}-myonlinevideos.details.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\myonlinevideos.details.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\myonlinevideos.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{04d704e9-d7fd-4c6a-bc37-86322b2e5785}-myonlinevideos.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\myonlinevideos.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\OnlineVideos and Games Theme\rockstar.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8d269e97-112b-49cb-be4e-4cadc435d25a}-rockstar.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Apollo\Themes\OnlineVideos and Games Theme\rockstar.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
